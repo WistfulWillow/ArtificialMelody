@@ -1,4 +1,5 @@
 label ch1_d1_start:
+    stop music fadeout 1.5
     scene black
     with dissolve
     centered "{b}{cps=15}Day 1:\nMonday 16th September 3095{/b}{/cps}"
@@ -21,6 +22,7 @@ label ch1_d1_start:
     scene black with hpunch
     "Pain exploded in my head as my skull collided with the unforgiving floor, stars dancing before my eyes. Blinking back tears, I struggled to focus, my gaze locking onto the figure standing in the doorway."
     scene bg bedroom day
+    play music alinatheme loop
     show alina
     with dissolve
     "Before me stood a small girl with an otherworldly aura, her pale skin glowing faintly in the dim light of the room. Brown hair framed her delicate features, half of it styled in a bob while the other half was fashioned into two buns adorned with black ribbons."
@@ -61,11 +63,13 @@ label ch1_d1_start:
     "I blinked in surprise, taken aback by her unexpected offer of hospitality."
     "But before I could respond,{nw}{done}"
     hide alina with moveoutright
+    stop music fadeout 1.5
     "But before I could respond,{fast} she had already slipped through the doorway, leaving me alone once more in the sterile confines of the unfamiliar room."
     window hide
     pause 1.5
     scene bedroom day
     show alina
+    play music passivetheme loop
     with fade
     "As she reentered the room, a faint aroma of freshly prepared sandwiches trailed behind her, mingling with the sterile air."
     "She approached me with a small tray in hand, upon which rested a plate of neatly arranged ham sandwiches and a crystal-clear glass of water."
@@ -148,5 +152,6 @@ label ch1_d1_start:
     scene black with dissolve
     "With that final thought, I fell into a comfortable slumber."
     window hide
+    stop music fadeout 1.5
     pause 1.0
     jump ch1_d1_dream

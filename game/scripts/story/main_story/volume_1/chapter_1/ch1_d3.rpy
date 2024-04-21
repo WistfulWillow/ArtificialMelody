@@ -22,6 +22,7 @@ label ch1_d3_start:
     "This was the second nightmare I'd had in such a long time... I wondered who that girl was..."
     scene bg bedroom day
     show alina milituni_coat_off -milituni_main workuni_main workuni_waistcoat workuni_blazer
+    play music passivetheme loop
     with fade
     "She soon returned, carrying a tray with a plate of jam on toast and a glass of water."
     show alina mouth_neutral_talk
@@ -67,6 +68,7 @@ label ch1_d3_start:
     "Nonetheless, I was looking forward to a warm bath, so I complied, glad to have the opportunity."
     window hide
     pause 1.0
+    play music relaxtheme loop
     "The bath was full. I handed her my dirty clothes, and she placed them in a separate pile near the door. To my surprise, she was still turned around."
     a "Uhm... Can I get in now?"
     l "Yes, go ahead."
@@ -134,6 +136,7 @@ label ch1_d3_start:
     "I went to grab the body wash from her, however it slipped and fell into the water."
     a "Oops-"
     "What happened next seemed to happen at a tenth of its speed."
+    stop music
     scene black with hpunch
     "I went to grab it, but so did she. We clashed, and she lost her balance, falling forwards. I attempted to catch her, but she ended up dragging me down too. We both landed in the bath with a splash."
     "I surfaced first, coughing. She pulled herself upright, her eyes wide."
@@ -165,6 +168,7 @@ label ch1_d3_start:
 
     scene bg bedroom day
     show alina bow_none -hair_1 hair2_back hair_2_1 milituni_coat_off -milituni_main workuni_main workuni_waistcoat workuni_blazer
+    play music passivetheme loop
     with dissolve
     "We returned to the bedroom. I sat on the bed, looking towards Alina."
     a "Uh..."
@@ -337,5 +341,6 @@ label ch1_d3_start:
     scene black
     with fade
     window hide
+    stop music fadeout 1.5
     pause 1.0
     jump ch1_d3_dream

@@ -1,5 +1,7 @@
 ### PROLOGUE START ###
 label v1_prolog:
+    stop music fadeout 1.5
+    play music hyaxistheme loop
     scene bg city with dissolve
     "The sun peeked over the horizon, casting a warm glow across the bustling streets of Hyaxis. As I made my way through the throngs of people, the hum of activity filled the air, punctuated by the occasional beep of passing androids and the soft whirr of hovering drones."
 
@@ -17,6 +19,7 @@ label v1_prolog:
 
     "As I settled into my work, I couldn't help but marvel at the world around me. In Hyaxis, the possibilities were endless, and I was ready to embrace whatever the future held."
     scene black with fade
+    stop music fadeout 1.5
     "..."
     "I was ready to embrace whatever the future held..."
     "That's what I thought."

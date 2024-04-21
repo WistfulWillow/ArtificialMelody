@@ -1,5 +1,5 @@
 label ch1_d2_start:
-    show bg bedroom day with dissolve
+    show bg bedroom daywith dissolve
     "I woke up with a start, my heart pounding in my chest as the remnants of a vivid dream faded into the recesses of my mind."
     "Gasping for breath, I sat up abruptly, my eyes wide with alarm."
     show alina -milituni_coat -milituni_main workuni_main workuni_waistcoat workuni_blazer with moveinright
@@ -31,6 +31,7 @@ label ch1_d2_start:
     "Closing my eyes again, I took a moment to gather my thoughts, pushing aside the unease that lingered like a shadow."
     scene bg bedroom day
     show alina -milituni_coat -milituni_main workuni_main workuni_waistcoat workuni_blazer
+    play music passivetheme loop
     with fade
     "As she reentered the room, a tantalizing aroma of freshly cooked pancakes filled the air, eliciting a delighted gasp from my lips."
     "My eyes widened with delight at the sight of the steaming stack of golden-brown pancakes, each one adorned with a generous drizzle of syrup."
@@ -50,6 +51,7 @@ label ch1_d2_start:
     pause 1.0
     "My joyous moment came to an abrupt halt as Alina's words pierced the air with an unexpected gravity."
     show alina -eye_closed mouth_neutral_talk
+    stop music fadeout 1.5
     l "You'll have to start questioning as soon as you've finished breakfast."
     show alina -mouth_neutral_talk
     "Choking slightly, I stared at her in disbelief, the sweetness of the syrup suddenly turning bitter in my mouth."
@@ -87,6 +89,8 @@ label ch1_d2_start:
     "I swallowed hard, trying to quell the rising tide of panic that threatened to overwhelm me. But as I sat there, facing her impassive gaze, I couldn't shake the feeling that my every word was being scrutinized, analyzed for any hint of deception."
     "She set the recording device on the table with a faint click, her movements precise and deliberate."
     scene cg introom with Dissolve(2.0)
+    play music interratheme loop
+#TODO Add ambient noise here
     l "The interrogation will begin now."
     "I nodded in acknowledgement, steeling myself for the questions that would follow."
     l "Firstly, please state your full name, age, and occupation."
@@ -123,6 +127,7 @@ label ch1_d2_start:
     "She regarded me silently, her crimson eyes betraying no hint of emotion as she absorbed my words. But beneath her impassive facade, I sensed a flicker of something - a spark of curiosity, perhaps, or maybe something more sinister."
     "With a heavy sigh, I sank back into my chair, the weight of exhaustion settling over me like a heavy blanket. The tension in the room hung heavy in the air, thick with unspoken words and unanswered questions."
     "After a moment of silence, she rose from her seat, her movements deliberate and controlled."
+    stop music fadeout 1.5
     l "The interrogation is over."
     "A wave of relief washed over me at her words, the weight of the interrogation lifting from my shoulders like a heavy burden."
     "She reached for the recording device, her fingers deftly switching it off with a click. The room fell into silence once more, the tension dissipating like a wisp of smoke in the wind."
@@ -146,6 +151,7 @@ label ch1_d2_start:
     "Why did she hone in on Hailey? Did I really know my best friend as well as I thought? It's the type of disturbing wonders that would keep you up at night…"
     scene bg bedroom day
     show alina -milituni_coat -milituni_main workuni_main workuni_waistcoat workuni_blazer
+    play music passivetheme loop
     with fade
     "A few minutes later, she returned, carrying a tray with a plate of ham sandwiches, a yogurt pot, and a glass of water."
     show alina mouth_neutral_talk
@@ -246,5 +252,6 @@ label ch1_d2_start:
     "I got into bed, sighing in relief at the opportunity to sleep again and escape this insane reality."
     "I fell unconscious within minutes."
     window hide
+    stop music fadeout 1.5
     pause 1.0
     jump ch1_d2_dream
