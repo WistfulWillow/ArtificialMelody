@@ -1,4 +1,7 @@
 label ch1_d3_start:
+    scene black
+    with dissolve
+    centered "{b}{cps=15}Day 3:\nWednesday 18th September 3095{/cps}{/b}"
     scene bg bedroom day
     show alina milituni_coat_off -milituni_main workuni_main workuni_waistcoat workuni_blazer
     with fade
