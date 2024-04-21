@@ -2,7 +2,7 @@ label ch1_d1_start:
     stop music fadeout 1.5
     scene black
     with dissolve
-    centered "{b}{cps=15}Day 1:\nMonday 16th September 3095{/b}{/cps}"
+    centered "{b}{cps=15}Day 1:\nMonday 16th September 3095{/cps}{/b}"
     scene bg bedroom day with dissolve
     "I jolted awake, gasping for breath as my heart thundered against my ribcage."
     "Blinking rapidly, I tried to make sense of my surroundings, my mind struggling to shake off the remnants of a dream that felt all too real."
