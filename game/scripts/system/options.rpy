@@ -114,7 +114,7 @@ define config.window = "auto"
 define config.window_show_transition = Dissolve(.2)
 define config.window_hide_transition = Dissolve(.2)
 
-define config.developer = True
+define config.developer = False
 
 
 ## Preference defaults #########################################################
