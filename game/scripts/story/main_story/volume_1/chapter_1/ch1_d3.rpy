@@ -1,4 +1,7 @@
 label ch1_d3_start:
+    scene black
+    with dissolve
+    centered "{b}{cps=15}Day 3:\nWednesday 18th September 3095{/cps}{/b}"
     scene bg bedroom day
     show alina milituni_coat_off -milituni_main workuni_main workuni_waistcoat workuni_blazer
     with fade
@@ -67,8 +70,9 @@ label ch1_d3_start:
     "I was a bit nervous, but glad she would turn away at least. However, would she turn away for the whole time I bathed, or leave the room, or...?"
     "Nonetheless, I was looking forward to a warm bath, so I complied, glad to have the opportunity."
     window hide
+    stop music fadeout 2.0
+    play music relaxtheme fadein 1.5 loop
     pause 1.0
-    play music relaxtheme loop
     "The bath was full. I handed her my dirty clothes, and she placed them in a separate pile near the door. To my surprise, she was still turned around."
     a "Uhm... Can I get in now?"
     l "Yes, go ahead."

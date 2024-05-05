@@ -2,7 +2,7 @@ label ch1_d1_start:
     stop music fadeout 1.5
     scene black
     with dissolve
-    centered "{b}{cps=15}Day 1:\nMonday 16th September 3095{/b}{/cps}"
+    centered "{b}{cps=15}Day 1:\nMonday 16th September 3095{/cps}{/b}"
     scene bg bedroom day with dissolve
     "I jolted awake, gasping for breath as my heart thundered against my ribcage."
     "Blinking rapidly, I tried to make sense of my surroundings, my mind struggling to shake off the remnants of a dream that felt all too real."
@@ -143,12 +143,12 @@ label ch1_d1_start:
     show alina at right with move
     "With clumsy fingers, I picked up the fork and began to eat, the warmth of the pasta soothing against my lips."
     "The flavors danced across my tongue, comforting and familiar, even in my half-awake state."
-    "She remained silent as I ate, her presence a silent yet watchful presence in the dimly lit room. I stole a glance at her as I chewed, but her expression gave nothing away, her features as inscrutable as ever."
+    "She remained silent as I ate, her presence silent yet watchful in the dimly lit room. I stole a glance at her as I chewed, but her expression gave nothing away, her features as inscrutable as ever."
     "As I finished the last bite of pasta and drained the glass of water, a sense of satiation washed over me once more."
     show alina at center with move
     "I let her take the tray from me, feeling a sense of gratitude towards her for her silent gesture of care."
     hide alina with moveoutright
-    "She turned and left the room once more, leaving me alone with my thoughts and the quiet stillness of the evening. And as I settled back onto the bed, I couldn't help but wonder what tomorrow would bring in this strange, scary situation."
+    "She turned and left the room once more, leaving me alone with my thoughts and the quiet stillness of the evening. And as I settled back into bed, I couldn't help but wonder what tomorrow would bring in this strange, scary situation."
     scene black with dissolve
     "With that final thought, I fell into a comfortable slumber."
     window hide

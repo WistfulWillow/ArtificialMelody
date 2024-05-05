@@ -1,5 +1,8 @@
 label ch1_d2_start:
-    show bg bedroom daywith dissolve
+    scene black
+    with dissolve
+    centered "{b}{cps=15}Day 2:\nTuesday 17th September 3095{/cps}{/b}"
+    show bg bedroom day with dissolve
     "I woke up with a start, my heart pounding in my chest as the remnants of a vivid dream faded into the recesses of my mind."
     "Gasping for breath, I sat up abruptly, my eyes wide with alarm."
     show alina -milituni_coat -milituni_main workuni_main workuni_waistcoat workuni_blazer with moveinright
